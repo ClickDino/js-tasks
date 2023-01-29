@@ -1,0 +1,53 @@
+a,
+a:visited,
+a:active,
+a:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+.simple-slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.arrow {
+    font-size: 30px;
+}
+
+.slider {
+    display: flex;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.items {
+    display: flex;
+    position: relative;
+    color: blue;
+    font-size: 30px;
+    right: 0;
+    transition: right .3s;
+}
+
+.ul {
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+li {
+    list-style: none;
+}
